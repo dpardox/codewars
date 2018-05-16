@@ -1,0 +1,1 @@
+const array_diff = (a, b) => a.filter(i => b.indexOf(i) == -1);
