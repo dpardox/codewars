@@ -2,7 +2,7 @@
   "name": "codewars",
   "version": "1.0.0",
   "scripts": {
-    "test": "karma start"
+    "test": "./node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
