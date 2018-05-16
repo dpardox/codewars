@@ -12,6 +12,10 @@ npm install
 
 Pruebas realizadas con [Karma](https://karma-runner.github.io/2.0/index.html).
 
+```shell
+npm install -g karma-cli
+```
+
 Ejecutar pruebas unitarias con el comando:
 
 ```shell
