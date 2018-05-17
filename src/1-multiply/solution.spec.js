@@ -1,5 +1,5 @@
-describe('Multiply test', function() {
-  it('should have a multiply function', function() {
+describe('Multiply test', () => {
+  it('should have a multiply function', () => {
     expect(multiply).toBeDefined();
   });
 
