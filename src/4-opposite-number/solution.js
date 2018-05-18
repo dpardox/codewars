@@ -1,3 +1,1 @@
-function opposite(number) {
-  return number - number * 2;
-}
+const opposite = number => number - number * 2;
