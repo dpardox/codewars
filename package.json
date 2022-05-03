@@ -2,7 +2,7 @@
   "name": "codewars",
   "version": "1.0.0",
   "scripts": {
-    "test": "karma start"
+    "test": "npx karma start"
   },
   "repository": {
     "type": "git",
@@ -16,13 +16,12 @@
   },
   "homepage": "https://github.com/spardo6/codewars#readme",
   "devDependencies": {
-    "jasmine-core": "^3.1.0",
-    "karma": "^2.0.2",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-cli": "^1.0.1",
-    "karma-jasmine": "^1.1.2",
+    "jasmine-core": "^4.1.0",
+    "karma": "^6.3.19",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-cli": "^2.0.0",
+    "karma-jasmine": "^5.0.0",
     "karma-requirejs": "^1.1.0",
     "requirejs": "^2.3.5"
-  },
-  "dependencies": {}
+  }
 }
