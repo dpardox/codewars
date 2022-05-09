@@ -1,0 +1,1 @@
+const rgb = (...args) => args.map(n => Math.min(Math.max(n, 0), 255).toString(16).toUpperCase().padStart(2, '0')).join('');
