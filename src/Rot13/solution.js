@@ -1,0 +1,1 @@
+const rot13 = str => str.replace(/[a-z]/gi, c => String.fromCharCode(c.charCodeAt(0) + (c.toLowerCase() < 'n' ? 13 : -13)));
