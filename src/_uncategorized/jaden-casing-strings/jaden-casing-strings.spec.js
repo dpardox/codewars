@@ -1,4 +1,4 @@
-fdescribe('Jaden Casing test', () => {
+describe('Jaden Casing test', () => {
   it('Functions should be defined', () => {
     expect(String.prototype.toJadenCase).toBeDefined();
   });
